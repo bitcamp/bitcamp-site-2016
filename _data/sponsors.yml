@@ -74,7 +74,7 @@
       image: smith.svg
       site: http://www.rhsmith.umd.edu/
     - name: "umiacs"
-      image: umiacs.png
+      image: UMIACS.svg
       site: http://www.umiacs.umd.edu/
 - name: small
   css_class: col-med-small
