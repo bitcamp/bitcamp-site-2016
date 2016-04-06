@@ -14,9 +14,9 @@
 - name: Events
   subsections:
     - name: Schedule
-#    - name: Map
+    - name: Map
     - name: Colorwar
-#    - name: Devpost
+    - name: Devpost
 - name: "Speakers"
   alt_name: "Speakers & Judges"
 - name: Sponsors
