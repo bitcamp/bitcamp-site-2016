@@ -70,6 +70,9 @@
     - name: "Math Department - UMD"
       image: math.png
       site: http://www.math.umd.edu
+    - name: "IBM"
+      image: IBM.svg
+      site: http://www.ibm.com/
     - name: "Robert H. Smith Business School"
       image: smith.svg
       site: http://www.rhsmith.umd.edu/
@@ -165,7 +168,7 @@
       site: https://insomniacookies.com/
     - name: "Make School"
       image: make.svg
-      site: https://www.makeschool.com/
+      site: "https://www.makeschool.com/apply?utm_campaign=Bitcamp%202016&utm_medium=Make%20School%20logo%20on%20website&utm_source=Bitcamp%20website"
     - name: "Minimill"
       image: minimill.svg
       site: http://minimill.co
