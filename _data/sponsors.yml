@@ -28,6 +28,9 @@
     - name: "FINRA"
       image: Financial_Industry_Regulatory_Authority_logo.svg
       site: http://technology.finra.org/
+    - name: "IBM"
+      image: IBM.svg
+      site: http://www.ibm.com/
     - name: "Leidos"
       image: Leidos.svg
       site: https://www.leidos.com/
@@ -70,9 +73,6 @@
     - name: "Math Department - UMD"
       image: math.png
       site: http://www.math.umd.edu
-    - name: "IBM"
-      image: IBM.svg
-      site: http://www.ibm.com/
     - name: "Robert H. Smith Business School"
       image: smith.svg
       site: http://www.rhsmith.umd.edu/
