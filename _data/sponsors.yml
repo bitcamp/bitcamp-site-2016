@@ -70,6 +70,9 @@
     - name: "Division of Information and Technology"
       image: divit.svg
       site: http://it.umd.edu/
+    - name: "ECE"
+      image: ece.jpg
+      site: http://ece.umd.edu/
     - name: "Math Department - UMD"
       image: math.png
       site: http://www.math.umd.edu
