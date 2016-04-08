@@ -33,7 +33,10 @@
       {% endcapture %}
       <a href="{{subsection_url | downcase | replace: ' ', ''}}">
         <button class="orange-button">
-          {{subsection.name}}
+          {% if subsection.name == "schedule" %}
+            {{subsection.url}}
+          {% else %}
+            {{subsection.name}}
         </button>
       </a>
     {% endfor %}
