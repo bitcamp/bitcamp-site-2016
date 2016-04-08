@@ -29,7 +29,7 @@
   <div class="col-md-5">
     {% for subsection in section.subsections %}
       {% capture subsection_url %}
-        {% if subsection.name == "schedule" %}
+        {% if subsection.name == "Schedule" %}
             http://bitca.mp/live
         {% else %}
             /{{section.name}}/{{subsection.name}}
