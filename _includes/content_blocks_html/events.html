@@ -30,7 +30,7 @@
     {% for subsection in section.subsections %}
       {% capture subsection_url %}
         {% if subsection.name == "schedule" %}
-            "http://bitca.mp.live"
+            http://bitca.mp/live
         {% else %}
             /{{section.name}}/{{subsection.name}}
         {% endif %}
