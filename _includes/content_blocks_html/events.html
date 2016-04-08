@@ -29,13 +29,14 @@
   <div class="col-md-5">
     {% for subsection in section.subsections %}
       {% capture subsection_url %}
-        /{{section.name}}/{{subsection.name}}
+        {% if subsection.name == "Schedule" %}
+            http://bitca.mp/live
+        {% else %}
+            /{{section.name}}/{{subsection.name}}
+        {% endif %}
       {% endcapture %}
       <a href="{{subsection_url | downcase | replace: ' ', ''}}">
         <button class="orange-button">
-          {% if subsection.name == "schedule" %}
-            {{subsection.url}}
-          {% else %}
             {{subsection.name}}
         </button>
       </a>
