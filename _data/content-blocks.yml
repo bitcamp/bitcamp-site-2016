@@ -4,22 +4,10 @@
 #     _includes/name/subsection-name.html, no spaces, with - instead of spaces
 
 - name: About
-  subsections: 
-    - name: Venue
-    - name: Faq
-    - name: Conduct
 - name: image-1
   hide_title: true
   hide_navbar: true
-- name: Events
-  subsections:
-    - name: Schedule
-      url: "http://bitca.mp/live"
-    - name: Map
-    - name: Colorwar
-    - name: Devpost
-- name: "Speakers"
-  alt_name: "Speakers & Judges"
-- name: Sponsors
+- name: Past Speakers
+- name: Past Sponsors
 - name: Contact
   hide_title: true
