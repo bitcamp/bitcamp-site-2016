@@ -7,7 +7,7 @@
 - name: image-1
   hide_title: true
   hide_navbar: true
-- name: Past Speakers
-- name: Past Sponsors
+- name: Speakers
+- name: Sponsors
 - name: Contact
   hide_title: true
