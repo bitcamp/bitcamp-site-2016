@@ -1,10 +1,10 @@
 # To add content to the website, top level names refer to signposts.
 # Subsections are options in the dialogs that appear after clicking a sign.
-# For each subsection's html, the application will search for it in: 
+# For each subsection's html, the application will search for it in:
 #     _includes/name/subsection-name.html, no spaces, with - instead of spaces
 
 - name: About
-  subsections: 
+  subsections:
     - name: Venue
     - name: Faq
     - name: Conduct
@@ -14,7 +14,7 @@
 - name: Events
   subsections:
     - name: Schedule
-      url: "http://bitca.mp/live"
+      url: "http://2016.bit.camp/live"
     - name: Map
     - name: Colorwar
     - name: Devpost

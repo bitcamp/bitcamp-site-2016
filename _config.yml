@@ -1,8 +1,8 @@
 # Site settings
 title: Bitcamp 2016
-email: hello@bitca.mp
+email: hello@bit.camp
 baseurl: ""
-url: "http://2016.bitca.mp"
+url: "http://2016.2016.bit.camp"
 typeform_url: "/register"
 content_home_dir: "content_blocks_html"
 sponsor_logo_dir: "/img/sponsor-logos/"

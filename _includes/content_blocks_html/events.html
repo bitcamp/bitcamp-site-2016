@@ -1,45 +1,40 @@
 <div class="container">
   <div class="col-md-7">
-    <section class="schedule-table" id="schedule"> <!-- schedule -->
+    <section class="schedule-table" id="schedule">
+      <!-- schedule -->
       {% for day in site.data.schedule %}
-        <!-- Friday -->
-        <h3 class="table-title">{{ day.name }}</h3><br>
-        <table class="schedule-table-day" id="table-{{day.name}}">
-          <thead>
-            <tr>
-              <th>Time</th>
-              <th>Event</th>
-            </tr>
-          </thead>
-          <tbody>
-            {% for event in day.events %}
-              {% if event.highlighted %}
-                <tr class="schedule-event">
-                  <td>{{ event.time }}</td>
-                  <td>{{ event.name }}</td>
-                </tr>
-              {% endif %}
-            {% endfor %}
-          </tbody>
-        </table>
-        <!-- /{{ day.name }} -->
+      <!-- Friday -->
+      <h3 class="table-title">{{ day.name }}</h3>
+      <br />
+      <table class="schedule-table-day" id="table-{{day.name}}">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Event</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for event in day.events %} {% if event.highlighted %}
+          <tr class="schedule-event">
+            <td>{{ event.time }}</td>
+            <td>{{ event.name }}</td>
+          </tr>
+          {% endif %} {% endfor %}
+        </tbody>
+      </table>
+      <!-- /{{ day.name }} -->
       {% endfor %}
     </section>
   </div>
   <div class="col-md-5">
-    {% for subsection in section.subsections %}
-      {% capture subsection_url %}
-        {% if subsection.name == "Schedule" %}
-            http://bitca.mp/live
-        {% else %}
-            /{{section.name}}/{{subsection.name}}
-        {% endif %}
-      {% endcapture %}
-      <a href="{{subsection_url | downcase | replace: ' ', ''}}">
-        <button class="orange-button">
-            {{subsection.name}}
-        </button>
-      </a>
+    {% for subsection in section.subsections %} {% capture subsection_url %} {%
+    if subsection.name == "Schedule" %} http://2016.bit.camp/live {% else %}
+    /{{section.name}}/{{subsection.name}} {% endif %} {% endcapture %}
+    <a href="{{subsection_url | downcase | replace: ' ', ''}}">
+      <button class="orange-button">
+        {{subsection.name}}
+      </button>
+    </a>
     {% endfor %}
   </div>
 </div>
